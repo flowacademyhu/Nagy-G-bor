@@ -1,0 +1,2 @@
+# Nagy-G-bor
+szakaszzaro
