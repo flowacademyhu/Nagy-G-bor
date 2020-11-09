@@ -133,7 +133,9 @@ const feladat = (height, weidth) => {
     const arr = new Array(weidth);
     for (let i = 0; i < arr.length; i++) {
       arr[i] = new Array(height);
-      for(végigmegyek rajtuk és mindegyiket megszorzom a i-vel)
+      for(let j =0; j < arr[i].length; j++) {
+          arr[i][j] = i*j;
+      }
     }
     return arr;
   };
