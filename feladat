@@ -1,0 +1,296 @@
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.5697] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.5757] manager[0x56324e03a020]: monitoring kernel firmware directory '/lib/firmware'.
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.5758] monitoring ifupdown state file '/run/network/ifstate'.
+Nov  9 08:56:56 MrCroo dbus-daemon[726]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.11' (uid=0 pid=728 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7232] hostname: hostname: using hostnamed
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7233] hostname: hostname changed from (none) to "MrCroo"
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7236] dns-mgr[0x56324e024290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7242] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:01.6/0000:03:00.0/ieee80211/phy0/rfkill1) (driver rtw_pci)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7244] manager[0x56324e03a020]: rfkill: Wi-Fi hardware radio set enabled
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7244] manager[0x56324e03a020]: rfkill: WWAN hardware radio set enabled
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7399] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7414] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7506] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7535] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7553] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7556] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7558] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7558] manager: Networking is enabled by state file
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7559] dhcp-init: Using DHCP client 'internal'
+Nov  9 08:56:56 MrCroo dbus-daemon[726]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=728 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7602] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7603] settings: Loaded settings plugin: keyfile (internal)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7603] ifupdown: management mode: unmanaged
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <warn>  [1604908616.7606] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7726] device (lo): carrier: link connected
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7729] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7743] manager: (eno1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7772] settings: (eno1): created default wired connection 'Wired connection 1'
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.7792] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.8927] device (wlo1): driver supports Access Point (AP) mode
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.8931] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Nov  9 08:56:56 MrCroo NetworkManager[728]: <info>  [1604908616.8939] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <warn>  [1604908617.7449] Error: failed to open /run/network/ifstate
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.7543] supplicant: wpa_supplicant running
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.7544] device (wlo1): supplicant interface state: init -> starting
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.7544] modem-manager: ModemManager available
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.8255] sup-iface[0x56324e04d120,wlo1]: supports 4 scan SSIDs
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.8260] device (wlo1): supplicant interface state: starting -> ready
+Nov  9 08:56:57 MrCroo NetworkManager[728]: <info>  [1604908617.8260] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Nov  9 08:57:00 MrCroo NetworkManager[728]: <info>  [1604908620.8618] agent-manager: agent[cef91ee828913de8,:1.41/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7571] policy: auto-activating connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7577] device (wlo1): Activation: starting connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7578] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7581] manager: NetworkManager state is now CONNECTING
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7584] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7587] device (wlo1): Activation: (wifi) access point 'FLOW academy' has security, but secrets are required.
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7588] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7608] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7611] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7613] device (wlo1): Activation: (wifi) connection 'FLOW academy' has security, and secrets exist.  No new secrets needed.
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'ssid' value 'FLOW academy'
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'scan_ssid' value '1'
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'bgscan' value 'simple:30:-70:86400'
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'auth_alg' value 'OPEN'
+Nov  9 08:57:01 MrCroo NetworkManager[728]: <info>  [1604908621.7614] Config: added 'psk' value '<hidden>'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.1643] device (wlo1): supplicant interface state: ready -> authenticating
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.1743] device (wlo1): supplicant interface state: authenticating -> associating
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.1872] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2133] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2134] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "FLOW academy"
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2138] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2145] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2578] dhcp4 (wlo1): option dhcp_lease_time      => '600'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2579] dhcp4 (wlo1): option domain_name_servers  => '192.168.0.1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2579] dhcp4 (wlo1): option expiry               => '1604909222'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2579] dhcp4 (wlo1): option ip_address           => '192.168.5.75'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2579] dhcp4 (wlo1): option next_server          => '192.168.5.1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2579] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_domain_name => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_domain_search => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_host_name  => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_nis_domain => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2580] dhcp4 (wlo1): option requested_nis_servers => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_root_path  => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_routers    => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_static_routes => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_time_offset => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2581] dhcp4 (wlo1): option requested_wpad       => '1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2582] dhcp4 (wlo1): option routers              => '192.168.5.1'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2582] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2582] dhcp4 (wlo1): state changed unknown -> bound
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2604] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2642] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2649] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2659] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2682] manager: NetworkManager state is now CONNECTED_SITE
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2683] policy: set 'FLOW academy' (wlo1) as default for IPv4 routing and DNS
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.2688] device (wlo1): Activation: successful, device activated.
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.7126] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 08:57:02 MrCroo NetworkManager[728]: <info>  [1604908622.8922] manager: startup complete
+Nov  9 08:57:03 MrCroo whoopsie[1817]: [08:57:03] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  9 08:57:03 MrCroo whoopsie[1817]: [08:57:03] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  9 08:57:03 MrCroo whoopsie[1817]: [08:57:03] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  9 08:57:13 MrCroo systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Nov  9 09:01:22 MrCroo NetworkManager[728]: <info>  [1604908882.5836] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Nov  9 09:01:22 MrCroo NetworkManager[728]: <info>  [1604908882.5837] device (eno1): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Nov  9 09:01:22 MrCroo NetworkManager[728]: <info>  [1604908882.6110] manager: NetworkManager state is now ASLEEP
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.3280] dhcp4 (wlo1): state changed bound -> expire
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.3281] device (wlo1): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <warn>  [1604912203.3335] sup-iface[0x56324e04d120,wlo1]: connection disconnected (reason -3)
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.3391] device (wlo1): supplicant interface state: completed -> disconnected
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.4111] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.4112] device (wlo1): state change: activated -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.4386] dhcp4 (wlo1): canceled DHCP transaction
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.4386] dhcp4 (wlo1): state changed expire -> done
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.5840] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.5881] manager: NetworkManager state is now DISCONNECTED
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.5906] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Nov  9 09:56:43 MrCroo dbus-daemon[726]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=728 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.6976] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Nov  9 09:56:43 MrCroo whoopsie[1817]: [09:56:43] Could not determine if /org/freedesktop/NetworkManager/ActiveConnection/1 is a default route:
+Nov  9 09:56:43 MrCroo whoopsie[1817]: [09:56:43] GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.DBus.Properties” on object at path /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  9 09:56:43 MrCroo whoopsie[1817]: [09:56:43] Could not determine if /org/freedesktop/NetworkManager/ActiveConnection/1 is a default route:
+Nov  9 09:56:43 MrCroo whoopsie[1817]: [09:56:43] GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.DBus.Properties” on object at path /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.9092] sup-iface[0x56324e04d210,wlo1]: supports 4 scan SSIDs
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.9106] device (wlo1): supplicant interface state: starting -> ready
+Nov  9 09:56:43 MrCroo NetworkManager[728]: <info>  [1604912203.9107] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8310] policy: auto-activating connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8314] device (wlo1): Activation: starting connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8315] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8319] manager: NetworkManager state is now CONNECTING
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8325] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8328] device (wlo1): Activation: (wifi) access point 'FLOW academy' has security, but secrets are required.
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8329] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8352] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8356] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8359] device (wlo1): Activation: (wifi) connection 'FLOW academy' has security, and secrets exist.  No new secrets needed.
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'ssid' value 'FLOW academy'
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'scan_ssid' value '1'
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'bgscan' value 'simple:30:-70:86400'
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'auth_alg' value 'OPEN'
+Nov  9 09:56:47 MrCroo NetworkManager[728]: <info>  [1604912207.8360] Config: added 'psk' value '<hidden>'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0672] device (wlo1): supplicant interface state: ready -> authenticating
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0707] device (wlo1): supplicant interface state: authenticating -> associating
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0874] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0938] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0939] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "FLOW academy"
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0942] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.0949] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1444] dhcp4 (wlo1): option dhcp_lease_time      => '600'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1444] dhcp4 (wlo1): option domain_name_servers  => '192.168.0.1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1444] dhcp4 (wlo1): option expiry               => '1604912808'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option ip_address           => '192.168.5.75'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option next_server          => '192.168.5.1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option requested_domain_name => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1445] dhcp4 (wlo1): option requested_domain_search => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_host_name  => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_nis_domain => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_nis_servers => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1446] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_root_path  => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_routers    => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_static_routes => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1447] dhcp4 (wlo1): option requested_time_offset => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1448] dhcp4 (wlo1): option requested_wpad       => '1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1448] dhcp4 (wlo1): option routers              => '192.168.5.1'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1448] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1448] dhcp4 (wlo1): state changed unknown -> bound
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1475] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1531] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1536] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1546] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1563] manager: NetworkManager state is now CONNECTED_SITE
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1564] policy: set 'FLOW academy' (wlo1) as default for IPv4 routing and DNS
+Nov  9 09:56:48 MrCroo NetworkManager[728]: <info>  [1604912208.1568] device (wlo1): Activation: successful, device activated.
+Nov  9 09:56:49 MrCroo NetworkManager[728]: <info>  [1604912209.4527] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 09:56:49 MrCroo whoopsie[1817]: [09:56:49] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/2
+Nov  9 09:56:49 MrCroo whoopsie[1817]: [09:56:49] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/2
+Nov  9 09:56:49 MrCroo whoopsie[1817]: [09:56:49] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/2
+Nov  9 09:56:49 MrCroo NetworkManager[728]: <info>  [1604912209.8530] agent-manager: agent[dc7a66591fa11a37,:1.41/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Nov  9 09:56:59 MrCroo systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Nov  9 10:00:17 MrCroo NetworkManager[728]: <info>  [1604912417.0024] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Nov  9 10:00:17 MrCroo NetworkManager[728]: <info>  [1604912417.0025] device (eno1): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Nov  9 10:00:17 MrCroo NetworkManager[728]: <info>  [1604912417.0280] manager: NetworkManager state is now ASLEEP
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.0410] dhcp4 (wlo1): state changed bound -> expire
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.0411] device (wlo1): DHCPv4: trying to acquire a new lease within 90 seconds
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <warn>  [1604913111.0740] sup-iface[0x56324e04d210,wlo1]: connection disconnected (reason -3)
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.0741] device (wlo1): supplicant interface state: completed -> disconnected
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1168] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1170] device (wlo1): state change: activated -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1357] dhcp4 (wlo1): canceled DHCP transaction
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1358] dhcp4 (wlo1): state changed expire -> done
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1390] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1417] manager: NetworkManager state is now DISCONNECTED
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.1447] device (eno1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Nov  9 10:11:51 MrCroo dbus-daemon[726]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=728 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.2587] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Nov  9 10:11:51 MrCroo whoopsie[1817]: [10:11:51] Could not determine if /org/freedesktop/NetworkManager/ActiveConnection/2 is a default route:
+Nov  9 10:11:51 MrCroo whoopsie[1817]: [10:11:51] GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.DBus.Properties” on object at path /org/freedesktop/NetworkManager/ActiveConnection/2
+Nov  9 10:11:51 MrCroo whoopsie[1817]: [10:11:51] Could not determine if /org/freedesktop/NetworkManager/ActiveConnection/2 is a default route:
+Nov  9 10:11:51 MrCroo whoopsie[1817]: [10:11:51] GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.DBus.Properties” on object at path /org/freedesktop/NetworkManager/ActiveConnection/2
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.4867] sup-iface[0x56324e04d300,wlo1]: supports 4 scan SSIDs
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.4877] device (wlo1): supplicant interface state: starting -> ready
+Nov  9 10:11:51 MrCroo NetworkManager[728]: <info>  [1604913111.4878] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4049] policy: auto-activating connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4054] device (wlo1): Activation: starting connection 'FLOW academy' (0fb6d0ef-2b61-4d49-9ff4-a0d48c3bbaa6)
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4055] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4059] manager: NetworkManager state is now CONNECTING
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4062] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4064] device (wlo1): Activation: (wifi) access point 'FLOW academy' has security, but secrets are required.
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4065] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4083] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4087] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4089] device (wlo1): Activation: (wifi) connection 'FLOW academy' has security, and secrets exist.  No new secrets needed.
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'ssid' value 'FLOW academy'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'scan_ssid' value '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'bgscan' value 'simple:30:-70:86400'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'auth_alg' value 'OPEN'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.4090] Config: added 'psk' value '<hidden>'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6446] device (wlo1): supplicant interface state: ready -> authenticating
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6509] device (wlo1): supplicant interface state: authenticating -> associating
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6633] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6695] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6696] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "FLOW academy"
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6699] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6708] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6896] dhcp4 (wlo1): option dhcp_lease_time      => '600'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6896] dhcp4 (wlo1): option domain_name_servers  => '192.168.0.1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option expiry               => '1604913715'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option ip_address           => '192.168.5.75'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option next_server          => '192.168.5.1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_domain_name => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_domain_search => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_host_name  => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6897] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_nis_domain => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_nis_servers => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_root_path  => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_routers    => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_static_routes => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6898] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6899] dhcp4 (wlo1): option requested_time_offset => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6899] dhcp4 (wlo1): option requested_wpad       => '1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6899] dhcp4 (wlo1): option routers              => '192.168.5.1'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6899] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6899] dhcp4 (wlo1): state changed unknown -> bound
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6942] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.6995] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.7001] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.7011] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.7028] manager: NetworkManager state is now CONNECTED_SITE
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.7029] policy: set 'FLOW academy' (wlo1) as default for IPv4 routing and DNS
+Nov  9 10:11:55 MrCroo NetworkManager[728]: <info>  [1604913115.7034] device (wlo1): Activation: successful, device activated.
+Nov  9 10:12:02 MrCroo NetworkManager[728]: <info>  [1604913122.0330] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  9 10:12:02 MrCroo whoopsie[1817]: [10:12:02] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  9 10:12:02 MrCroo whoopsie[1817]: [10:12:02] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  9 10:12:02 MrCroo whoopsie[1817]: [10:12:02] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  9 10:12:03 MrCroo NetworkManager[728]: <info>  [1604913123.2953] agent-manager: agent[5ee658cc623b4987,:1.41/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Nov  9 10:12:12 MrCroo systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7166] dhcp4 (wlo1): option dhcp_lease_time      => '600'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7167] dhcp4 (wlo1): option domain_name_servers  => '192.168.0.1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7167] dhcp4 (wlo1): option expiry               => '1604914015'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7167] dhcp4 (wlo1): option ip_address           => '192.168.5.75'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7167] dhcp4 (wlo1): option next_server          => '192.168.5.1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7167] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_domain_name => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_domain_search => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_host_name  => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7168] dhcp4 (wlo1): option requested_nis_domain => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_nis_servers => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_root_path  => '1'
+Nov  9 10:16:55 MrCroo dbus-daemon[726]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=728 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_routers    => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_static_routes => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7169] dhcp4 (wlo1): option requested_time_offset => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7170] dhcp4 (wlo1): option requested_wpad       => '1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7170] dhcp4 (wlo1): option routers              => '192.168.5.1'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7170] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Nov  9 10:16:55 MrCroo NetworkManager[728]: <info>  [1604913415.7170] dhcp4 (wlo1): state changed bound -> extended
+Nov  9 10:17:06 MrCroo systemd[1]: NetworkManager-dispatcher.service: Succeeded.
