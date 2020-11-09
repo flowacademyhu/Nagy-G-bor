@@ -1,0 +1,47 @@
+ 1998  mkdir szakaszzaro
+ 1999  ls
+ 2000  cd szakaszzaro
+ 2001  ls
+ 2002  touch szakaszzaro_feladat
+ 2003  echo "Hello" > szakaszzaro_feladat 
+ 2004  cat szakaszzaro_feladat 
+ 2005  mv szakaszzaro_feladat feladat
+ 2006  ls
+ 2007  cp feladat feladat2
+ 2008  ls
+ 2009  rm -r feladat2
+ 2010  cat feladat
+ 2011  grep '*NetworkManager*' /var/log/syslog | > ~/szakaszzaro/feladat
+ 2012  cat feladat
+ 2013  nano feladat
+ 2014  grep 'NetworkManager' /var/log/syslog | > ~/szakaszzaro/feladat
+ 2015  nano feladat
+ 2016  grep 'NetworkManager' /var/log/syslog > ~/szakaszzaro/feladat
+ 2017  nano feladat
+ 2018  grep man
+ 2019  git push
+ 2020  git init
+ 2021  ls
+ 2022  ls -la
+ 2023  git@github.com:flowacademyhu/Nagy-G-bor.git
+ 2024  git push
+ 2025  git push git@github.com:flowacademyhu/Nagy-G-bor.git
+ 2026  git push --set-upstream git@github.com:flowacademyhu/Nagy-G-bor.git master
+ 2027  git clone
+ 2028  git clone git@github.com:flowacademyhu/Nagy-G-bor.git
+ 2029  ls
+ 2030  cd Nagy-G-bor/
+ 2031  ls
+ 2032  cd ..
+ 2033  mv feladat ./Nagy-G-bor/feladat
+ 2034  ls
+ 2035  cd Nagy-G-bor/
+ 2036  ls
+ 2037  mv ~/.bash_history ~/szakaszzaro/Nagy-G-bor/.bash_history
+ 2038  ls
+ 2039  ls -la
+ 2040  nano .bash_history 
+ 2041  git add .
+ 2042  git commit
+ 2043  git push
+ 2044  history
